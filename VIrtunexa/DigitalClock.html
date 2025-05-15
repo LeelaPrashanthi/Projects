@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Clock & Factorial Calculator</title>
+  <link rel="stylesheet" href="Week1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Clock</h1>
+    <div id="clock" class="clock">00:00:00</div>
+
+    <h2>Factorial Calculator</h2>
+    <input type="number" id="numberInput" placeholder="Enter a positive integer" />
+    <div class="buttons">
+      <button onclick="calculateIterative()">Iterative</button>
+      <button onclick="calculateRecursive()">Recursive</button>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="Week1.js"></script>
+</body>
+</html>
