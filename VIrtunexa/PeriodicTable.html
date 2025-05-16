@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Periodic Table</title>
+  <link rel="stylesheet" href="PeriodicTable.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Periodic Table</h1>
+    <div id="table" class="periodic-table"></div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <h2 id="elementName"></h2>
+      <p><strong>Symbol:</strong> <span id="elementSymbol"></span></p>
+      <p><strong>Atomic Number:</strong> <span id="atomicNumber"></span></p>
+      <p><strong>Description:</strong> <span id="elementDesc"></span></p>
+    </div>
+  </div>
+
+  <script src="PeriodicTable.js"></script>
+</body>
+</html>
